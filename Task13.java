@@ -54,6 +54,9 @@ public class Task13 {
         laptops.add(new Laptop("Lenovo", 8, 1024, "Windows", "Red"));
         laptops.add(new Laptop("Asus", 16, 512, "Windows", "Blue"));
         laptops.add(new Laptop("Acer", 8, 256, "Windows", "Black"));
+        laptops.add(new Laptop("Samsung ", 8, 256, "Windows", "Black"));
+        laptops.add(new Laptop("Samsung ", 16, 512, "Windows", "Gray"));
+        laptops.add(new Laptop("Samsung ", 32, 1024, "Windows", "red"));
         Map<String, Object> filters = new HashMap<>();
 
         Scanner scanner = new Scanner(System.in);
